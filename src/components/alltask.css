@@ -1,0 +1,21 @@
+.each_task{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border: 1px solid blue;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.each_task:hover{
+    background-color: lightgray;
+}
+.task_title:hover{
+    color: blue;
+}
+
+.cancel_task:hover{
+    color: red;
+}

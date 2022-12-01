@@ -1,0 +1,20 @@
+.titleblock{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: lightgray;
+}
+.title_control{
+    position: absolute;
+    right: 30px;
+}
+.topic{
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid blue;
+    margin-bottom: 10px;
+}
