@@ -1,0 +1,11 @@
+.chatdata{
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+}
+.actualdata{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
