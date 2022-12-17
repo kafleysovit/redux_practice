@@ -1,11 +1,19 @@
 import "./mainpagetask.css";
+import { useRef, useEffect } from "react";
 export default function Mainpagetask({ messages }) {
+  const scroll = useRef(null);
+  useEffect(() => {
+    // to scroll to last
+    scroll.current?.scrollIntoView();
+  }, [messages]);
   return (
     <div className="chatdata">
       {messages.map((dt) => (
-        <p key={dt.id}> {dt.message} </p>
+        <p className="message" key={dt.id}>
+          {dt.message}
+        </p>
       ))}
-      <h4 className="actualdata">chat goes here</h4>
+      <div ref={scroll} />
     </div>
   );
 }

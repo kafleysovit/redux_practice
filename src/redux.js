@@ -3,12 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = [
   {
     id: 1,
-    task: "First Task",
-    message: [],
-  },
-  {
-    id: 2,
-    task: "First Task",
+    task: "Welcome",
     message: [],
   },
 ];
@@ -31,8 +26,7 @@ export const manageData = createSlice({
             message: action.payload.actual_message,
           });
         }
-        // firt.message.map((dt) => console.log(dt));
-        return firt; // idk what this will do?
+        return firt;
       });
     },
   },

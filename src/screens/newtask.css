@@ -1,0 +1,41 @@
+.newtask {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid blue;
+  border-radius: 15px;
+  height: 300px;
+}
+.newtask_input {
+  height: 40px;
+  width: 400px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-size: large;
+  border-radius: 15px;
+  padding-left: 20px;
+  border: 1px dotted black;
+}
+.newtask_input:hover {
+  border: 1px solid blue;
+}
+.newtask_form {
+  display: flex;
+  flex-direction: column;
+}
+.newtask_button {
+  width: 80px;
+  height: 40px;
+  font-size: large;
+  border-radius: 15px;
+  border: 1px solid brown;
+}
+.newtask_button:hover {
+  background-color: blue;
+  color: white;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,20 +1,49 @@
-.each_task{
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    margin-bottom: 10px;
-    border: 1px solid blue;
-    border-radius: 15px;
-    padding-left: 30px;
-    padding-right: 30px;
+.alltask {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.each_task:hover{
-    background-color: lightgray;
+.each_task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid blue;
+  border-radius: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  min-width: 500px;
+  height: 80px;
 }
-.task_title:hover{
-    color: blue;
+.each_task:hover {
+  background-color: lightgray;
+}
+.task_title:hover {
+  color: red;
 }
 
-.cancel_task:hover{
-    color: red;
+.cancel_task:hover {
+  color: red;
+}
+.task_title {
+  font-size: 30px;
+}
+.task_link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.delete {
+  width: 80px;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.delete:hover {
+  color: red;
 }

@@ -11,11 +11,9 @@ root.render(
   <Provider store={store}>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />}>
-          <Route path=":id" element={<Mainpage />} />
-        </Route>
+        <Route path="/" element={<App />} />
+        <Route path=":id" element={<Mainpage />} />
       </Routes>
-      {/* <App /> */}
     </BrowserRouter>
   </Provider>
 );
